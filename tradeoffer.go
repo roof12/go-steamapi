@@ -54,7 +54,7 @@ const (
 
 // CEconAsset represents an asset in steam web api
 type CEconAsset struct {
-	AppID          uint   `json:",string"`
+	AppID          uint   `json:""`
 	ContextID      uint64 `json:",string"`
 	AssetID        uint64 `json:",string"`
 	CurrencyID     uint64 `json:",string"`
