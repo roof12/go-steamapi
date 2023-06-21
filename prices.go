@@ -20,6 +20,7 @@ type Asset struct {
 	Date     string
 	Tags     []string
 	TagIDs   []int64
+	ClassId  uint64 `json:",string"`
 }
 
 // HasTag return bool if the asset has a tag
