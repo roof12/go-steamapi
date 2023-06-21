@@ -61,6 +61,7 @@ type CEconAsset struct {
 	ClassID        uint64 `json:",string"`
 	InstanceID     uint64 `json:",string"`
 	Amount         uint64 `json:",string"`
+	EstUsd         uint64 `json:"est_usd,string"`
 	Missing        bool
 	MarketHashName string
 }
