@@ -1,4 +1,4 @@
-module github.com/Philipp15b/go-steamapi
+module github.com/roof12/go-steamapi
 
 go 1.19
 
